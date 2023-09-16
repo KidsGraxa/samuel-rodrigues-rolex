@@ -186,6 +186,7 @@ html, body {
     font-size: 50px;
     font-weight: bold;
 }
+
 #ps4 {
     width: 40%;
     margin-top: 2%;
@@ -825,7 +826,7 @@ a {
     bottom: 0;
     height: 10%;
     overflow: auto;
-    
+
 }
 
 #txt-ft {
@@ -1094,6 +1095,11 @@ a {
     }
 
     #hs4 {
+        margin-top: 5%;
+        font-size: 6vw;
+    }
+
+    #hs41 {
         margin-top: 5%;
         font-size: 6vw;
     }
