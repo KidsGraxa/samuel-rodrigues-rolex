@@ -718,9 +718,20 @@ html, body {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.pr .button button[type="reset"] {
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #701919;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
 .pr .button button[type="submit"]:hover {
-    background: #0b3e27;
+    background: #3e0b0b;
 }
 
 .erro {

@@ -120,7 +120,7 @@ const formulario = document.getElementById('formulario');
 const nomeInput = document.getElementById('nome');
 const emailInput = document.getElementById('email');
 const celularInput = document.getElementById('celular');
-const mensagemErro = document.getElementById('mensagemErro'); // Corrigido o ID aqui
+const mensagemErro = document.getElementById('mensagemErro');
 
 formulario.addEventListener('submit', function (e) {
   e.preventDefault();
@@ -142,6 +142,14 @@ formulario.addEventListener('submit', function (e) {
 
   mensagemErro.textContent = 'Formulário enviado com sucesso!';
   mensagemErro.style.color = 'green';
+});
+
+// Adicione um manipulador de eventos para o botão de redefinição
+const resetButton = document.getElementById('resetButton');
+resetButton.addEventListener('click', function () {
+  // Use o método reset() para redefinir o formulário
+  formulario.reset();
+  mensagemErro.textContent = ''; // Limpa qualquer mensagem de erro
 });
 
 function exibirErro(mensagem) {
