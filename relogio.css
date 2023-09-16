@@ -731,6 +731,9 @@ html, body {
 }
 
 .pr .button button[type="submit"]:hover {
+    background: #0b3e27;
+}
+.pr .button button[type="reset"]:hover {
     background: #3e0b0b;
 }
 
